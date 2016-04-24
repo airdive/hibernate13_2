@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="javaEE" extends="struts-default">
+		<action name="test" class="controller.Test" method="execute">
+			<result name="success" type="dispatcher">/insert.jsp</result>
+		</action>
+		<action name="test2" class="controller.Test2" method="execute">
+			<result name="success" type="dispatcher">/index.jsp</result>
+		</action>
+		<action name="test3" class="controller.Test3" method="execute">
+			<result name="success" type="dispatcher">/index.jsp</result>
+		</action>
+		<action name="test4" class="controller.Test4" method="execute">
+			<result name="success" type="dispatcher">/index.jsp</result>
+		</action>
+		<action name="test5" class="controller.Test5" method="execute">
+			<result name="success" type="dispatcher">/index.jsp</result>
+		</action>
+		<action name="test6" class="controller.Test6" method="execute">
+			<result name="success" type="dispatcher">/index.jsp</result>
+		</action>
+	</package>
+</struts>    
